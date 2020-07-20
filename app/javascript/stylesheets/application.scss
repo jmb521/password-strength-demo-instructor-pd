@@ -1,10 +1,9 @@
 @import 'tailwindcss/base';
-
 @import 'tailwindcss/components';
-
 @import 'tailwindcss/utilities';
 
 meter[value='1']::-webkit-meter-optimum-value {
+
     background: red;
   }
   meter[value='2']::-webkit-meter-optimum-value {
@@ -16,3 +15,4 @@ meter[value='1']::-webkit-meter-optimum-value {
   meter[value='4']::-webkit-meter-optimum-value {
     background: green;
   }
+
